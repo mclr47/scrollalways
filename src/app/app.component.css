@@ -1,0 +1,30 @@
+p {
+  font-family: Lato;
+}
+.wrapper {
+  /* overflow: hidden; */
+  /* display: flex; */
+  display:inline-flex;
+  overflow: auto;
+  /* overscroll-behavior: inherit; */
+
+}
+
+.sidebar {
+  min-width: 200px;
+  background: #333;
+  color: #FFF;
+}
+
+.container {
+  flex: 1;
+  overflow-x: scroll;
+}
+
+.long {
+  width: 2000px;
+}
+
+.header {
+ background: #666;
+}
